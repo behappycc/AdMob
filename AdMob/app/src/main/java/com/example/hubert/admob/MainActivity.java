@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 
         // Create the interstitial.
         interstitial = new InterstitialAd(this);
-        interstitial.setAdUnitId(getString(R.string.ad_unit));
+        interstitial.setAdUnitId(getString(R.string.ad_unit_fill));
 
         // Create ad request.
         //AdRequest adRequest = new AdRequest.Builder().addTestDevice("B39BE2466F1E3D92534D72B2FE607EBC").build();
